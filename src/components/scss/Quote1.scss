@@ -1,0 +1,99 @@
+@import 'global';
+
+.quoteContainer {
+    position: relative;
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.textContainer {
+    position: absolute;
+    max-width: 40%;
+}
+
+.openingQuoteContainer {
+    max-width: 45px;
+    transform: translateY(-70px);
+    z-index: 2;
+}
+
+.closingQuoteContainer {
+    max-width: 45px;
+    transform: translateY(80px);
+    z-index: 2;
+}
+
+.quoteText {
+    color: #525251;
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 1260px) {
+	.textContainer {
+        max-width: 55%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+	.textContainer {
+        max-width: 65%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .quoteContainer {
+        position: relative;
+        width: 100vw;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+	.textContainer {
+        max-width: 80%;
+    }
+
+    .openingQuoteContainer {
+        max-width: 40px;
+        transform: translateY(-70px);
+        z-index: 2;
+    }
+    
+    .closingQuoteContainer {
+        max-width: 40px;
+        transform: translateY(80px);
+        z-index: 2;
+    }
+    
+    .quoteText {
+        font-size: 22px;
+    }
+      
+}
+
+@media screen and (max-width: 610px) {
+    .textContainer {
+        max-width: 95%;
+    }
+
+    .openingQuoteContainer {
+        max-width: 35px;
+        transform: translateY(-70px);
+        z-index: 2;
+    }
+    
+    .closingQuoteContainer {
+        max-width: 35px;
+        transform: translateY(80px);
+        z-index: 2;
+    }
+}

@@ -1,0 +1,436 @@
+@import 'global';
+
+.newsletterContainer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+
+}
+
+.newsletterContainer p {
+    margin-bottom: 0;
+}
+
+.imageContainerNewsletter {
+    position: absolute;
+    width: 510px;
+    height: 765px;
+    z-index: 2;
+    transform: translateX(-60%) translateY(-2%);
+}
+
+.bottomNL {
+    position: absolute;
+    background-color: #525251;
+    height: 400px;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+}
+
+.textContainerNewsLetter {
+    grid-column: 2 / 3;
+    max-width: 95%;
+    max-height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.bigImageNL {
+    width: 100%;
+    height: auto;
+}
+
+.newsletterTitle {
+    width: 100%;
+}
+
+.newsletterBody {
+    width: 100%;
+}
+
+.newsletterTerms {
+    width: 100%;
+    transform: translateY(40%);
+}
+
+.titleNL {
+    color: #F5F6F7;
+    font-size: 34px;
+    line-height: 1.8rem;
+}
+
+.bodyTextNL {
+    color: #F5F6F7;
+    font-size: 18px;
+}
+
+.termsNL {
+    color: #F5F6F7;
+}
+
+.radioSelectionNL {
+    --color: #F5F6F7;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.radioButtonsNL {
+    padding-right: 10vw;
+    font-size: 25px;
+    color: var(--color);
+    display: grid;
+    grid-template-rows: min-content auto;
+    grid-template-columns: min-content auto;
+}
+
+.radioInput {
+    display: flex;
+    margin-right: 15px;
+}
+
+.radioInput input[type="radio"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+
+}
+
+.radioInput input[type="radio"]:checked + .radioControl {
+    background: radial-gradient(#FBD5C5 50%, rgba(255, 0, 0, 0) 51%);
+}
+
+.radioControl {
+    display: block;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border: 0.1em solid currentColor;
+    transform: translateY(-0.05em);
+}
+
+.radioLabel {
+    line-height: 1;
+}
+
+.signUpSection {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.emailInput {
+    width: 350px;
+    height: 30px;
+}
+
+.radioButtonsNL {
+    padding-right: 10vw;
+    font-size: 25px;
+    display: grid;
+    grid-template-rows: min-content auto;
+    grid-template-columns: min-content auto;
+}
+
+.callToActionNL {
+    background-color: #F5F6F7;
+    color: #525251;
+    font-size: 22px;
+    align-self: center;
+    justify-self: center;
+    border: none;
+    cursor: pointer;
+    transform: translateX(10%);
+}
+
+@media screen and (max-width: 1330px) {
+    
+    .imageContainerNewsletter {
+        position: absolute;
+        width: 38.25vw;
+        height: 57.75vw;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+
+    .titleNL {
+        font-size: 30px;
+    }
+    
+    .bodyTextNL {
+        font-size: 16px;
+    }
+    
+    .termsNL {
+        font-size: 16px;
+    }
+
+    .radioButtonsNL {
+        font-size: 22px;
+    }
+
+    .emailInput {
+        width: 31.55vw;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .newsletterContainer {
+        height: 130vw;
+    }
+
+    .imageContainerNewsletter {
+        width: 60vw;
+        height: 75vw;
+        transform: translateX(0%) translateY(-46vw);
+    }
+
+    .bigImageNL {
+        height: 75vw;
+        object-fit: cover;
+        object-position: 0 -10%;
+    } 
+
+    .bottomNL {
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    .textContainerNewsLetter {
+        margin-top: 0;
+        max-width: 65%;
+        max-height: 100%;
+        height: 50%;
+        transform: translateX(0%) translateY(-3.5vw);
+    }
+
+    .titleNL {
+        line-height: 1.15em;
+    }
+    
+    .bodyTextNL {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .termsNL {
+        font-size: 16px;
+    }
+    
+    .radioSelectionNL {
+        transform: translateY(20%);
+    }
+    
+    .signUpSection {
+        max-width: 100%;
+    }
+
+    .emailInput {
+        width: 300px;
+        height: 100%;
+    }
+    
+    .callToActionNL {
+        height: 100%;
+    }
+}
+
+
+@media screen and (max-width: 690px) {
+
+    .imageContainerNewsletter {
+        transform: translateX(0%) translateY(-51vw);
+    }
+
+    .textContainerNewsLetter {
+        height: 55%;
+    }
+
+}
+
+@media screen and (max-width: 630px) {
+    .newsletterContainer {
+        height: 145vw;
+    }
+
+    .imageContainerNewsletter {
+        transform: translateX(0%) translateY(-65vw);
+    }
+
+    .textContainerNewsLetter {
+        max-width: 75%;
+        max-height: 90%;
+        height: 65%;
+    }
+
+    .emailInput {
+        width: 50vw;
+    }
+    
+    .callToActionNL {
+        font-size: 17px;
+        height: 100%;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .newsletterContainer {
+        height: 160vw;
+    }
+
+    .imageContainerNewsletter {
+        transform: translateX(0%) translateY(-75vw);
+    }
+
+    .textContainerNewsLetter {
+        max-width: 75%;
+        max-height: 95%;
+    }
+
+    .titleNL {
+        font-size: 28px;
+    }
+
+    .bodyTextNL {
+        font-size: 15px;
+    }
+
+    .radioLabel {
+        font-size: 20px;
+    }
+
+    .termsNL {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .newsletterContainer {
+        height: 190vw;
+    }
+
+    .imageContainerNewsletter {
+        transform: translateX(0%) translateY(-105vw);
+    }
+
+    .bottomNL {
+        height: 72%;
+    }
+    .textContainerNewsLetter {
+        margin-top: 0;
+        max-width: 75%;
+        max-height: 90%;
+        height: 70%;
+        /* transform: translateX(0%) translateY(-30vw); */
+    }
+
+    .signUpSection {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .emailInput {
+        width: 90%;
+        margin: 10px 0px;
+    }
+
+    .callToActionNL {
+        width: 70%;
+        transform: translateX(0%);
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .newsletterContainer {
+        height: 195vw;
+    }
+
+    .textContainerNewsLetter {
+        height: 75%;
+    }
+
+    .imageContainerNewsletter {
+        transform: translateX(0%) translateY(-110vw);
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .newsletterContainer {
+        height: 210vw;
+    }
+
+    .imageContainerNewsletter {
+        transform: translateX(0%) translateY(-125vw);
+    }
+
+    .textContainerNewsLetter {
+        height: 78%;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .newsletterContainer {
+        height: 215vw;
+    }
+
+    .imageContainerNewsletter {
+        transform: translateX(0%) translateY(-130vw);
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .newsletterContainer {
+        height: 235vw;
+    }
+
+    .imageContainerNewsletter {
+        transform: translateX(0%) translateY(-147.5vw);
+    }
+    
+    .textContainerNewsLetter {
+        height: 80%;
+    }
+
+    .titleNL {
+        font-size: 24px;
+    }
+
+    .bodyTextNL {
+        font-size: 14px;
+    }
+
+    .radioLabel {
+        font-size: 18px;
+    }
+
+    .termsNL {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+	.newsletterContainer {
+        height: 270vw;
+    }
+
+    .imageContainerNewsletter {
+        transform: translateX(0%) translateY(-180vw);
+    }
+
+    .bottomNL{
+        height: 75%;
+    }
+}

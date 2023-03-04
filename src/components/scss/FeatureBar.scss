@@ -1,0 +1,40 @@
+@import 'global';
+
+.featureBar {
+    background: #F5F6F7;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInAndMove 0.5s ease-in;
+    transform: translateY(80px);
+  
+}
+
+@keyframes fadeInAndMove {
+
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(80px);
+    }
+
+}
+
+.MarqueBox {
+    height: 30px;
+    width: 30px;
+}
+
+.MarqueLogo {
+    width: 100%;
+}
+  

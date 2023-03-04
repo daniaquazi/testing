@@ -1,0 +1,212 @@
+@import 'global';
+
+.valuePropositionDisplayBar {
+    background-color: #F5F6F7;
+    height: 130px;
+    width: 100%;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.valuePropositionDisplayBar p {
+    margin: 0;
+}
+
+.valueProposition {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+}
+
+.valuePropImage {
+    height: 120px;
+    width: 120px;
+}
+
+.valuePropImage img {
+    margin: 0;
+}
+
+.valuePropositionText {
+    color: #525251;
+    max-width: 95%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    margin: 10px 0;
+    padding: 0 10px;
+    width: fit-content;
+}
+
+.valuePropositionTitle {
+    color: #525251;
+    font-size: 18px;
+    transform: translateY(20%);
+}
+
+.valuePropositionBody {
+    color: #525251;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1370px) {
+    .valuePropositionTitle {
+        font-size: 16px;
+    }
+    
+    .valuePropositionBody {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 1240px) {
+    .valuePropImage {
+        height: 90px;
+        width: 90px;
+    }
+
+    .valuePropositionTitle {
+        font-size: 15px;
+    }
+    
+    .valuePropositionBody {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1135px) {   
+    .valuePropositionTitle {
+        transform: translateY(0%);
+    }
+
+    .valuePropositionBody {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 975.5px) {
+    .valuePropositionBody {
+        height: 52px;
+    }
+
+    .valuePropositionTitle {
+        transform: translateY(20%);
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .valuePropositionDisplayBar {  
+        height: fit-content;
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .valueProposition {
+        height: 100px;
+    }
+
+    .valuePropImage {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .valuePropImage img {
+    }
+    
+    .valuePropositionText {
+        font-size: 24px;
+        max-width: 95%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        padding-right: 0px;
+        width: 270px;
+    }
+
+    .valuePropositionBody {
+        height: fit-content;
+    }
+
+    .valuePropositionTitle {
+        transform: translateY(20%);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .valuePropositionDisplayBar {  
+        height: 280px;
+        flex-direction: column;
+    }
+
+    .valueProposition {
+        height: 80px;
+    }
+
+    .valuePropImage {
+        height: 80px;
+        width: 80px;
+    }
+    
+    .valuePropImage img {
+    }
+    
+    .valuePropositionText {
+        padding-right: 0;
+        max-width: 95%;
+        width: 250px;
+    }
+    
+    .valuePropositionTitle {
+        font-size: 16px;
+    }
+    
+    .valuePropositionBody {
+        font-size: 12px;
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .valuePropositionDisplayBar {
+        height: 370px;
+    }
+
+    .valueProposition {
+        height: 105px
+    }
+
+    .valuePropositionText {
+        width: 200px;        
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+
+    .valuePropositionText {
+        width: 180px;        
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .valuePropositionText {
+        width: 150px;        
+    }
+
+}

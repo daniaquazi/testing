@@ -1,0 +1,34 @@
+@import 'global';
+
+.footerPartnerLogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footerPartnerLogosRow1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footerPartnerLogosRow2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footerBigCommerceLogo {
+    width: 125px;
+  }
+  
+  .footerEConsultancyLogo {
+    width: 100px;
+  }
+  
+  .footerIDMLogo {
+    width: 100px;
+    height: 100px;
+  }

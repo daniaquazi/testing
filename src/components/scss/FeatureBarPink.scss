@@ -1,0 +1,40 @@
+@import 'global';
+
+.featureBarPink {
+    background: #FBD5C5;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    margin-top: 40px;
+    // top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInAndMovePink 0.5s ease-in;
+    transform: translateY(80px);
+  
+}
+
+@keyframes fadeInAndMovePink {
+
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(80px);
+    }
+
+}
+
+.MarqueBoxPink {
+    height: 30px;
+    width: 30px;
+}
+
+.MarqueLogoPink {
+    width: 100%;
+}

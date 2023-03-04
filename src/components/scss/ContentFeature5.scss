@@ -1,0 +1,70 @@
+@import 'global';
+
+.contentFeature5 {
+	position: relative;
+	width: 100%;
+	height: 90vw;
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    /* align-items: flex-end; */
+	background-color: #525251;
+}
+
+.contentFeature5 p {
+	margin: 0;
+}
+
+.boardTextContainer5 {
+	position: absolute;
+	width: 100%;
+	height: 83%;
+    background-color: #F5F6F7;
+    align-self: flex-end;
+}
+
+.boardTextAnimationContainer5 {
+	width: 100%;
+	height: 100%;
+}
+
+.imageContainer5 {
+	max-width: 40%;
+    z-index: 3;
+    transform: translateX(60%) translateY(10%);
+}
+
+
+.textContainer5 {
+	position: absolute;
+	color:rgb(0, 0, 0);
+	width: 40%;
+	height: 35%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    transform: translateX(20%) translateY(20%);
+}
+
+/* TEXT */
+
+.categoryName5 {
+	color: #525251;
+	font-size: 18px;
+}
+
+.title5 {
+	color: #525251;
+	font-size: 40px;
+	line-height: 1.0em;
+}
+
+.bodyText5 {
+	color: #525251;
+	font-size: 16px;
+}
+
+.callToAction5 {
+	color: #525251;
+	font-size: 20px;
+}

@@ -1,0 +1,241 @@
+body {
+  overflow: hidden;
+}
+
+// -------------------------- COLOURS -------------------------- //
+
+:root {
+--primary-black: #525151;
+--primary-yellow: #fbeec8;
+--primary-pink: #fbd5c5;
+--secondary-stone: #f8f6ec;
+--secondary-grey: #f4f5f6;
+}
+
+
+// --------------------------- FONTS --------------------------- //
+
+@font-face {
+  font-family: 'AriaText-SemiBold';
+  src: url('../fonts/AriaTextG2-SemiBold.woff') format('woff');
+  font-style: normal;
+  
+}
+
+
+@font-face {
+  font-family: 'AriaText-Bold';
+  src: url('../fonts/AriaTextG2-Bold.woff') format('woff');
+  font-style: normal;
+}
+
+
+@font-face {
+font-family: 'Raleway-Regular';
+font-style: normal;
+font-weight: 400;
+src: url('../fonts/Raleway-Regular.woff'); /* IE9 Compat Modes */
+}
+
+@font-face {
+font-family: 'Raleway-Bold';
+font-style: normal;
+font-weight: 400;
+src: url('../fonts/raleway-bold.woff'); /* IE9 Compat Modes */
+}
+
+
+@font-face {
+font-family: 'Photograph-Signature';
+font-style: normal;
+font-weight: 400;
+src: url('../fonts/PhotographSignature.woff'); /* IE9 Compat Modes */
+}
+
+
+h1 {
+font-family: 'AriaText-Bold', sans-serif;
+}
+
+h2 {
+font-family: 'Photograph-Signature', sans-serif;
+}
+
+h3 {
+font-family: 'Raleway-Bold', sans-serif;
+}
+
+h4 {
+font-family: 'AriaText-Bold', sans-serif;
+
+}
+
+p {
+font-family: 'Raleway-Regular', sans-serif;
+}
+
+a {
+font-family: 'Raleway-Regular', sans-serif;
+}
+
+.navbar-container {
+font-family: 'AriaText-SemiBold', sans-serif;
+}
+
+.valuePropositionBody {
+ font-family: 'Raleway-Regular', sans-serif;
+}
+
+.valuePropositionTitle {
+  font-family: 'Raleway-Bold', sans-serif;
+}
+
+.author_subtitle {
+font-family: 'Photograph-Signature', sans-serif;
+}
+
+.subTitle1 {
+  font-family: 'AriaText-SemiBold', sans-serif;
+}
+
+.title1 {
+  font-family: 'AriaText-Bold', sans-serif !important;
+}
+
+.categoryName1 {
+  font-family: 'Photograph-Signature', sans-serif;
+}
+
+.textContainer1 {
+ font-family: 'Raleway-Regular', sans-serif;
+}
+
+.callToAction1 {
+ font-family: 'AriaText-SemiBold', sans-serif;
+}
+
+.subTitle2 {
+font-family: 'Photograph-Signature', sans-serif;
+}
+
+.title2 {
+font-family: 'AriaText-Bold', sans-serif !important;
+}
+
+.quoteText {
+font-family: 'AriaText-SemiBold', sans-serif;
+}
+
+.quote2_text {
+font-family: 'AriaText-SemiBold', sans-serif;
+}
+
+.subTitle3 {
+  font-family: 'Photograph-Signature', sans-serif;
+}
+
+.title3 {
+  font-family: 'AriaText-Bold', sans-serif !important;
+  margin-bottom: 5px !important;
+}
+
+.categoryName2 {
+ font-family: 'AriaText-SemiBold', sans-serif;
+}
+
+.bodyText2 {
+ font-family: 'Raleway-Regular', sans-serif;
+}
+
+.callToAction2 {
+font-family: 'AriaText-SemiBold', sans-serif;
+}
+
+.bodyTextNL {
+font-family: 'Raleway-Regular', sans-serif;
+}
+
+.radioLabel {
+font-family: 'Raleway-Regular', sans-serif;
+}
+
+.termsNL {
+font-family: 'Raleway-Regular', sans-serif;
+}
+
+.callToActionNL {
+font-family: 'Raleway-Regular', sans-serif;
+}
+
+.titleNL {
+font-family: 'AriaText-SemiBold', sans-serif;
+}
+
+.subTitle9 {
+font-family: 'Photograph-Signature', sans-serif;
+}
+
+.title9 {
+font-family: 'AriaText-Bold', sans-serif !important;
+margin-bottom: 5px !important;
+}
+
+.categoryName9 {
+font-family: 'AriaText-SemiBold', sans-serif;
+}
+
+.bodyText9 {
+font-family: 'Raleway-Regular', sans-serif;
+}
+
+.callToAction9 {
+font-family: 'AriaText-SemiBold', sans-serif;
+}
+
+.title6 {
+font-family: 'AriaText-SemiBold', sans-serif;
+}
+
+
+
+
+
+
+
+/* ---------- FOOTER FONTS ---------- */
+
+.footerHeaderProposition h2 {
+font-family: 'AriaText-Bold', sans-serif;
+}
+
+.footerCompanyLogoText {
+font-family: 'Raleway-Regular', sans-serif;
+}
+
+.footerMainBodyLinks h2 {
+font-family: 'AriaText-SemiBold', sans-serif;
+}
+
+.footerMainBodyLinks a {
+font-family: 'Raleway-Regular', sans-serif;
+}
+
+.title h1 {
+font-family: 'AriaText-SemiBold', sans-serif;
+}
+
+.footer-link {
+font-family: 'Raleway-Regular', sans-serif;
+}
+
+.footerRightText {
+font-family: 'Raleway-Regular', sans-serif;
+}
+
+.footerRightText strong {
+font-family: 'AriaText-SemiBold', sans-serif;
+}
+
+.footerCalltoActionR {
+font-family: 'AriaText-SemiBold', sans-serif;
+}

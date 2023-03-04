@@ -1,0 +1,588 @@
+@import 'global';
+
+.footer {
+    background-color: #525251;
+    width: 100%;
+    height: 750px;
+    overflow-y: hidden;
+    display: block;
+  
+  }
+  
+  .footerHeader {
+    /* background-color: aliceblue; */
+    margin: 0 0 40px;
+  }
+  
+  .footerHeaderProposition {
+    /* background-color: rgb(156, 156, 156); */
+    height: 79px;
+  }
+  
+  .footerHeaderProposition ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+  
+  .footerHeaderProposition ul li {
+    list-style: none;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 25px 0 22px;
+  }
+  
+  .footerHeaderProposition h2 {
+    font-size: 20px;
+    color: #F5F6F7;
+  }
+  
+  .footerMain {
+  }
+  
+  .footerMainBody {
+    padding: 0 50px;
+    widows: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap:nowrap;
+  }
+  
+  
+  /* --------------- MAIN BODY ROW 1 (CONTAINS COMPANY AND PARTENER LOGOS)--------------- */
+  .footerMainBodyLogos {
+    /* background-color: rgb(156, 156, 156); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* COMPANY LOGO DIV */
+  .footerCompanyLogo {
+    max-width: 432px;
+    max-width: 432px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footerCompanyLogoMarque {
+    max-width: 144px;
+    min-width: 40px;
+    max-height: 144px;
+    min-height: 40px;
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    margin-top: 35px;
+  }
+  
+  .footerCompanyLogoText {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  /* PARTNER COMPANY DIVS */
+  .footerPartnerLogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footerPartnerLogosRow1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footerPartnerLogosRow2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footerTextLeft {
+    color: #F5F6F7;
+  }
+  
+  .footerBigCommerceLogo {
+    width: 200px;
+  }
+  
+  .footerEConsultancyLogo {
+    width: 150px;
+  }
+  
+  .footerIDMLogo {
+    width: 150px;
+    height: 150px;
+  }
+  
+  /* --------------- MAIN BODY ROWS 2 & 3 (CONTAINS ALL RELEVANT LINKS)--------------- */
+  
+  .footerMainBodyLinks {
+    padding: 0 10px;
+    width: 40%;
+    max-width: 250px;
+  }
+  
+  .footerMainBodyLinks h2 {
+    color: #F5F6F7;
+    font-size: 22px;
+    margin-bottom: 2px;
+  }
+  
+  .footerLinkTitleUnderline {
+    width: 100%;
+    height: 5px;
+    margin-bottom: 1.45rem;
+    display: flex;
+    justify-content: left;
+  }
+  
+  .underline1 {
+    background-color: #FBD5C5;
+    width: 118px;
+    height: 5px;
+  }
+  
+  .underline2 {
+    background-color: #FBD5C5;
+    width: 138px;
+    height: 5px;
+  }
+  
+  .footerMainBodyLinks ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footerLinkedListItem {
+    list-style: none;
+    color: #F5F6F7;
+    font-size: 16px;
+  }
+  
+  
+  
+  /* --------------- MAIN BODY ROW 4 (CONTAINS SOCIALS AND IMAGE)--------------- */
+  
+  .footerMainBodySocial {
+    width: 100%;
+    max-width: 300px;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .footerSocialMediaItems {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 40px;
+  }
+  
+  .footerSocialIcon {
+    height: 30px;
+    margin: auto;
+    padding: auto;
+  }
+  
+  .footerPhoto {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .footerImageContainer {
+    position: absolute;
+    width: 250px;
+    z-index: 3;
+    transform: translateX(-6px) translateY(-6px);
+  }
+  .footerImage {
+    width: 250px;
+    height: auto;
+    margin: 0;
+  }
+  
+  .footerImageBackDrop {
+    width: 250px;
+    height: 250px;
+    z-index: 0;
+    background-color: #FBD5C5;
+    transform: translateX(6px) translateY(6px);
+  }
+  
+  .footerRightText {
+    color: #F5F6F7;
+    font-size: 16px;
+  }
+  
+  .footerCalltoActionR p {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+  
+  .footerCallToActionUnderline {
+    background-color: #FBD5C5;
+    width: 99px;
+    height: 5px;
+  }
+  
+  
+  
+  
+  /* .footerBottom {
+    background-color: aqua;
+  } */
+  
+  @media screen and (max-width: 1020px) {
+  
+    .footerMainBody {
+      padding: 0 25px;
+    }
+  
+    /* --------------- MAIN BODY ROW 1 (CONTAINS COMPANY AND PARTENER LOGOS)--------------- */
+  
+    .footerMainBodyLogos {
+      max-width: 250px;
+    }
+  
+     .footerCompanyLogoMarque {
+      width: 80px;
+      height: 80px;
+      margin: 80px;
+      margin-top: 45px;
+    }
+  
+    /* PARTNER COMPANY DIVS */
+  
+    .footerBigCommerceLogo {
+      width: 175px;
+    }
+  
+    .footerEConsultancyLogo {
+      width: 120px;
+    }
+  
+    .footerIDMLogo {
+      width: 120px;
+      height: 120px;
+    }
+  
+    /* --------------- MAIN BODY ROW 4 (CONTAINS SOCIALS AND IMAGE)--------------- */
+  
+    .footerMainBodySocial {
+      max-width: 300px;
+    }
+  
+    .footerImageContainer {
+      width: 220px;
+    }
+    .footerImage {
+      width: 220px;
+    }
+  
+    .footerImageBackDrop {
+      width: 220px;
+      height: 220px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 830px) {
+  
+    .footerHeaderProposition h2 {
+      font-size: 18px;
+    }
+  
+    /* --------------- MAIN BODY ROW 1 (CONTAINS COMPANY AND PARTENER LOGOS)--------------- */
+  
+    .footerCompanyLogoText {
+      font-size: 15px;
+    }
+    
+    /* --------------- MAIN BODY ROWS 2 & 3 (CONTAINS ALL RELEVANT LINKS)--------------- */
+  
+    .footerMainBodyLinks h2 {
+      font-size: 18px;
+    }
+  
+    .underline1 {
+      width: 97px;
+      height: 3.5px;
+    }
+    
+    .underline2 {
+      width: 112px;
+      height: 3.5px;
+    }
+  
+    .footerLinkedListItem {
+      font-size: 15px;
+    }
+  
+    /* --------------- MAIN BODY ROW 4 (CONTAINS SOCIALS AND IMAGE)--------------- */
+    .footerRightText {
+      font-size: 15px;
+    }
+  
+    .footerCallToActionUnderline {
+      width: 82px;
+      height: 3.5px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer {
+      height: 2400px;
+    }
+  
+    .footerHeader {
+      margin: 0 0 0px;
+    }
+    
+    .footerHeaderProposition {
+      height: fit-content;
+    }
+    
+    .footerHeaderProposition ul {
+      padding: 0;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+    
+    .footerHeaderProposition ul li {
+      width: 100%;
+      float: none;
+      padding: 25px 0;
+      margin: 0;
+    }
+    
+    .footerHeaderProposition h2 {
+      font-size: 20px;
+      color: #F5F6F7;
+    }
+  
+    .footerMainBody {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    /* --------------- MAIN BODY ROW 1 (CONTAINS COMPANY AND PARTENER LOGOS)--------------- */
+    
+    .footerMainBodyLogos {
+      max-width: 400px;
+    }
+  
+    .footerCompanyLogoMarque {
+      width: 100px;
+      height: 100px;
+      margin: 100px;
+      margin-top: 75PX;
+    }
+  
+    .footerCompanyLogoText {
+      padding: 0 15px;
+      font-size: 16px;
+    }
+  
+    .footerBigCommerceLogo {
+      width: 200px;
+    }
+  
+    .footerEConsultancyLogo {
+      width: 150px;
+    }
+  
+    .footerIDMLogo {
+      width: 150px;
+      height: 150px;
+    }
+  
+    
+  
+    /* --------------- MAIN BODY ROWS 2 & 3 (CONTAINS ALL RELEVANT LINKS)--------------- */
+  
+    .footerMainBodyLinks {
+      margin: 35px 0 50px;
+      padding: 0 10px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 80%;
+      max-width: 300px;
+      min-width: 190px;
+    }
+  
+    .footerMainBodyLinks h2 {
+      font-size: 20px;
+    }
+  
+    .footerLinkTitleUnderline {
+      justify-content: center;
+    }
+  
+    .underline1 {
+      width: 109.5px;
+      height: 5px;
+    }
+    
+    .underline2 {
+      width: 126px;
+      height: 5px;
+    }
+  
+    .footerLinkedListItem {
+      font-size: 16px;
+    }
+  
+    /* --------------- MAIN BODY ROW 4 (CONTAINS SOCIALS AND IMAGE)--------------- */
+  
+    .footerMainBodySocial {
+      max-width: 330px;
+    }
+  
+    .footerImageContainer {
+      width: 250px;
+    }
+    .footerImage {
+      width: 250px;
+    }
+  
+    .footerImageBackDrop {
+      width: 250px;
+      height: 250px;
+    }
+    
+    .footerRightText {
+      padding: 0 15px;
+    }
+    
+    .footerCalltoActionR p {
+      margin-bottom: 0;
+    }
+  
+    .footerRightText {
+      font-size: 16px;
+    }
+    
+    .footerCallToActionUnderline {
+      width: 100px;
+      height: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .footer {
+      height: 2300px;
+    }
+    
+    .footerHeaderProposition h2 {
+      font-size: 20px;
+    }
+    
+    /* --------------- MAIN BODY ROWS 2 & 3 (CONTAINS ALL RELEVANT LINKS)--------------- */
+  
+    .footerMainBodyLinks h2 {
+      font-size: 20px;
+    }
+  
+    .footerLinkedListItem {
+      font-size: 16px;
+    }
+  
+    /* --------------- MAIN BODY ROW 4 (CONTAINS SOCIALS AND IMAGE)--------------- */
+  
+    .footerCallToActionUnderline {
+      width: 89px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .footer {
+      height: 2200px;
+    }
+    
+    /* --------------- MAIN BODY ROW 1 (CONTAINS COMPANY AND PARTENER LOGOS)--------------- */
+  
+    .footerCompanyLogoMarque {
+      width: 80px;
+      height: 80px;
+      margin: 80px;
+      margin-top: 60px;
+    }
+  
+    /* PARTNER COMPANY DIVS */
+  
+    .footerBigCommerceLogo {
+      width: 175px;
+    }
+  
+    .footerEConsultancyLogo {
+      width: 120px;
+    }
+  
+    .footerIDMLogo {
+      width: 120px;
+      height: 120px;
+    }
+  
+    /* --------------- MAIN BODY ROWS 2 & 3 (CONTAINS ALL RELEVANT LINKS)--------------- */
+  
+    /* --------------- MAIN BODY ROW 4 (CONTAINS SOCIALS AND IMAGE)--------------- */
+    
+    .footerMainBodySocial {
+      max-width: 340px;
+    }
+    
+    .footerRightText {
+      padding: 0 20px;
+    }
+  
+    .footerSocialIcon {
+      height: 25px;
+    }
+    
+    .footerImageContainer {
+      width: 225px;
+    }
+    .footerImage {
+      width: 225px;
+    }
+    
+    .footerImageBackDrop {
+      width: 225px;
+      height: 225px;
+    }
+  
+  }
+  

@@ -1,0 +1,80 @@
+@import 'global';
+
+.contentFeature4 {
+	position: relative;
+	width: 100%;
+	height: 50vw;
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentFeature4 p {
+	margin: 0;
+}
+
+.boardTextContainer4 {
+	position: absolute;
+	width: 40%;
+	height: 70%;
+	transform: translateX(-65%);
+}
+
+.boardTextAnimationContainer4 {
+	width: 100%;
+	height: 100%;
+}
+
+.displayBoardContainer4 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #525251;
+}
+
+.imageContainer4 {
+	max-width: 60%;
+    z-index: 0;
+    transform: translateX(27%) translateY(0%);
+	background-color: #525251;
+}
+
+.bigImage4 {
+	object-fit: cover;
+	margin: 0;
+}
+
+.textContainer4 {
+	position: absolute;
+	color:#F5F6F7;
+	width: 80%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    transform: translateX(10%) translateY(10%);
+}
+
+/* TEXT */
+
+.categoryName4 {
+	font-size: 18px;
+}
+
+.title4 {
+	font-size: 40px;
+	line-height: 1.0em;
+}
+
+.subTitle4 {
+	color: #FBD5C5;
+}
+
+.bodyText4 {
+	font-size: 16px;
+}
+
+.callToAction4 {
+	font-size: 20px;
+}

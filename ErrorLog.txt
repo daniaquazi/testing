@@ -1,0 +1,6 @@
+D-Hasani 9/9/21
+
+Error: Javascript function implementation
+Description: Function created in JS for header is not implementing properly. For some reason I have to change the code each time to get it working once the page is already loaded otherwise will not work.
+
+Fix: N/A (Most likely need to change somethig cause using react)

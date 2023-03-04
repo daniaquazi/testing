@@ -1,0 +1,39 @@
+@import 'global';
+
+.team_member_container {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-flow: column nowrap;
+    // justify-content: center;
+    align-items: center;
+    border: 2px black dashed;
+}
+
+.team_image_container {
+    // margin-bottom: 20px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px black solid;
+}
+
+.team_image {
+
+    object-fit: cover;
+}
+
+.team_underline {
+    width: 80px;
+    height: 6px;
+    background-color: var(--primary-pink);
+    margin: 20px 0;
+}
+
+.team_name_container {
+
+}
+
+.team_role_container {
+
+}
