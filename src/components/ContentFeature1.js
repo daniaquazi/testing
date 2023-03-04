@@ -59,7 +59,7 @@ export default function ContentFeature1() {
           className={"bigImage"}
           alt={``}
           key={``}
-          //src={data.allContentfulFlexStyleBody.edges[2].node.image.file.url}
+          src={data.allContentfulFlexStyleBody.edges[2].node.image.file.url}
         />
         
       </div>
